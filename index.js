@@ -20,6 +20,17 @@ var api = new ParseServer({
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
+  emailAdapter: {
+    module: 'parse-server-simple-mailgun-adapter',
+    options: {
+      // The address that your emails come from 
+      fromAddress: 'hello@ausalt.com',
+      // Your domain from mailgun.com 
+      domain: 'mg.ausalt.com',
+      // Your API key from mailgun.com 
+      apiKey: 'key-d91dc9c6cafb9e8302b0171556dff1a5',
+    }
+  }
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
 // If you wish you require them, you can set them as options in the initialization above:
