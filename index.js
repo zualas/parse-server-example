@@ -21,7 +21,7 @@ var api = new ParseServer({
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   },
   appName: 'Daily Meditator',
-  publicServerURL: 'https://protected-shelf-41106.herokuapp.com/parse',
+  publicServerURL: 'https://dailymeditator.herokuapp.com/parse',
   emailAdapter: {
     module: 'parse-server-simple-mailgun-adapter',
     options: {
