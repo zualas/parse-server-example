@@ -26,9 +26,9 @@ var api = new ParseServer({
     module: 'parse-server-simple-mailgun-adapter',
     options: {
       // The address that your emails come from 
-      fromAddress: 'hello@mg.ausalt.com',
+      fromAddress: 'dailymeditator@dailymeditator.org',
       // Your domain from mailgun.com 
-      domain: 'mg.ausalt.com',
+      domain: 'dailymeditator.org',
       // Your API key from mailgun.com 
       apiKey: 'key-d91dc9c6cafb9e8302b0171556dff1a5',
     }
