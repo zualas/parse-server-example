@@ -28,7 +28,7 @@ var api = new ParseServer({
       // The address that your emails come from 
       fromAddress: 'dailymeditator@dailymeditator.org',
       // Your domain from mailgun.com 
-      domain: 'email.dailymeditator.org',
+      domain: 'dailymeditator.org',
       // Your API key from mailgun.com 
       apiKey: 'key-d91dc9c6cafb9e8302b0171556dff1a5',
     }
