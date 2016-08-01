@@ -32,6 +32,9 @@ var api = new ParseServer({
       // Your API key from mailgun.com 
       apiKey: 'key-d91dc9c6cafb9e8302b0171556dff1a5',
     }
+  },
+  oauth: {
+    google: true
   }
   
 });
